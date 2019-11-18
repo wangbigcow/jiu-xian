@@ -1,0 +1,10 @@
+﻿//首页轮播
+(()=>{
+	const LIWIDTH=parseFloat($(".lunbo-banner").css("width"));
+	//console.log(LIWIDTH);
+	var $imgs=$("[data-load=bannerImgs]");
+	console.log($imgs);
+		$imgs.html(html).css("width",LIWIDTH*data.length);
+		$("[data-load=bannerIdxs]").html("<li></li>".repeat(data.length-1)).children().first().addClass("hover");
+	})
+})();

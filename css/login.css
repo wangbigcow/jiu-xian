@@ -1,0 +1,251 @@
+div.header{
+	width: 1000px;
+	height: 88px;
+	margin:0 auto;
+	margin-bottom:50px;
+}
+div.container-nav{
+	width:147px;
+	height:88px;
+	float: left;
+}
+a.nav-a-1{
+	width: 140px;
+	height:63px;
+	margin-left:0;
+	margin-top:10px;
+	cursor: pointer;
+	display: block;
+	float: left;
+}
+a.nav-a-2{
+	display: block;
+	width: 140px;
+	height:63px;
+	margin-top:10px;
+	cursor: pointer;
+	float: left;
+	margin-left: 0px;
+}
+
+div.nav-div{
+	width:240px;
+	height: 16px;
+	float: right;
+	margin-top:50px;
+	font-size:12px;
+}
+p.nav-p{
+	float: left;
+}
+div.nav-div a{
+	float: left;
+	text-decoration: none;
+	color: black;
+}
+
+a.nav-a-3{
+	margin-left: 15px;
+}
+a.nav-a-4{
+	margin-left: 15px;
+}
+a.nav-a-3:hover{
+	border-bottom: 1px solid black;
+}
+a.nav-a-4:hover{
+	border-bottom: 1px solid black;
+}
+
+/**下拉列表开始**/
+div.nav-div-drop{
+	width:64px;
+	height:100px;
+	float: right;
+	position:relative;
+	right:-230px;
+	font-size:12px;
+	margin-top:50px;
+	z-index:9999;
+}
+div.nav-div-drop a{
+	text-decoration:none;
+	color:black;
+}
+ul.dropdown-menu{
+	text-align:center;
+	float:right;
+	margin-top:5px;
+	width:52px;
+	list-style:none;
+	opacity:0;
+	transition:all .5s linear;
+}
+ul.in{
+	height:100px;
+	opacity:1;
+}
+ul.dropdown-menu li{
+	margin-bottom:5px;
+}
+ul.dropdown-menu a:hover{
+	border-bottom:1px solid black;
+}
+/**下拉列表结束**/
+
+
+
+div.main{
+	width: 1903px;
+	height: 600px;
+	background: url(../image/bg1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow:0 -3px 0 red;
+	position:relative;
+}
+div.footer{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+p.footer-p-1{
+	width: 700px;
+	height:30px;
+	font-size: 12px;
+	margin: 0 auto;
+}
+p.footer-p-2{
+	width: 700px;
+	height:30px;
+	font-size: 12px;
+	color: red;
+	margin: 0 auto;
+}
+div.container-input{
+	background-color: #fff;
+	width: 350px;
+	height: 405px;
+	right:10%;
+	top:100px;
+	position:absolute;
+}
+
+a.container-a-1{
+	width: 64px;
+	height: 40px;
+	float: left;
+	font-size: 16px;
+	line-height: 40px;
+	color:red;
+	font-weight:bold;
+}
+a.container-a-2{
+	width: 128px;
+	height: 40px;
+	float: right;
+	font-size: 16px;
+	line-height: 40px;
+	color:gray;
+}
+#container-span{
+	width: 38px;
+	height: 40px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+
+}
+div.container-hr{
+	width: 230px;
+	height: 41px;
+	margin:0 auto;
+	border-bottom: 1px solid black;
+}
+form.container-form input{
+	width: 270px;
+	height: 42px;
+}
+div.container-text{
+	width: 270px;
+	height: 42px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+div.container-pwd{
+	width: 270px;
+	height: 42px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+div.container-yzm{
+	width: 270px;
+	height: 42px;
+	margin: 0 auto;
+	margin-top: 20px;
+
+}
+div.container-submit{
+	width: 270px;
+	height: 42px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 2px;
+	font-size: 16px;
+}
+input{
+	width: 270px;
+	height: 42px;
+	z-index: 5px;
+}
+div.container-submit button{
+	width: 270px;
+	height: 42px;
+	font-size: 16px;
+	background: #e10303;
+	color: white;
+}
+div.footer{
+	margin-top:150px;
+}
+div.container-footer{
+	width: 270px;
+	height: 20px;
+	font-size: 16px;
+	margin:0 auto;
+	margin-top:20px;
+}
+div.container-checkbox input{
+	width:15px;
+	height:15px;
+}
+div.container-checkbox{
+	width:80px;
+	height:20px;
+	float:left;
+	font-size:14px;
+}
+div.container-fgt-a{
+	width:64px;
+	height:20px;
+	float:right;
+	margin-left:15px;
+	font-size:14px;
+}
+div.container-fgt-a a{
+	text-decoration:none;
+	color:gray;
+}
+div.container-fgt-a a:hover{
+	border-bottom:1px solid black;
+}
+div.container-reg-a a:hover{
+	border-bottom:1px solid black;
+}
+div.container-reg-a{
+	width:64px;
+	height:20px;
+	float:right;
+	font-size:14px;
+}

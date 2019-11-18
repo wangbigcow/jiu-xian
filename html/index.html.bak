@@ -1,0 +1,822 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>酒仙网</title>
+  <script src="../js/jquery-3.2.1.js"></script>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/lunbo.css">
+  <link rel="stylesheet" type="text/css" href="../css/side.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+ </head>
+
+<div class='side'>
+	<div class='side-content'>
+		<div class='item-side-a'>
+			<a href="#" class='item-li-1'>我</a>
+		</div>
+		
+		<div class='item-side-b'>
+			<a href="#" class='item-li-2'>收<br>藏</a>
+		</div>
+		
+		<div class='item-side-c'>
+			<a href="#" class='item-li-3'>购<br>物<br>车</a>
+		</div>
+		
+		<div class='item-side-d'>
+			<a href="#" class='item-li-4'>在<br>线<br>客<br>服</a>
+			</div>
+		</div>
+	</div>
+	<div id="body-div">
+	
+ <!-- 页面头部-->
+	<!--对顶部导航条-->
+
+		<div id="header">
+			<div class='top-box'>
+				<div class="top-nav">
+					<a style='border:none'>欢迎来到酒仙网！</a>
+					<a href="login.html" class='top-nav-a'>请登录</a>
+					<a href="regisiter.html" class='top-nav-a'>免费注册</a>
+				</div>
+					<div id="header_ul">
+						<ul>
+							<li><a href="#" style='border:none'>我的酒仙</a></li>
+							<li class="red"><a href="#">CEO邮箱</a></li>
+							<li><a href="#">购物车</a></li>
+							<li class="red"><a href="#">CLUB会员</a></li>
+							<li>|&nbsp;&nbsp;<a href="#">招商入驻</a>&nbsp;&nbsp;|</li>
+							<li class="li-phone"><a href="#" style='border:none'>手机逛酒仙</a></li>
+							<li><a href="#">网站导航</a</li>
+							<li><a href="#">客户服务</a></li>
+							<li><a href="#">客服热线</a></li>
+							<li class="red"><a href="#" style='border:none'>123-456-789</a></li>
+						</ul>
+					</div>
+			</div>
+		</div>
+	
+	<!--顶部广告横幅 height:95px-->
+		<div id="top-banner">
+			<img src="../image/banner.png" alt="">
+		</div>
+	
+	<!--logo 酒仙搜索框-->
+		<div class='search_1'>
+				<div class='search_2'>
+					<div id="jx-logo">
+						<div id="logo-1">
+							<img src="../image/logo.png" alt="">
+						</div>
+
+						<div id="logo-2">
+							<img src="../image/jiu.gif" alt="">
+						</div>
+					</div>
+				
+
+					<!--input输入框-->
+				<div id="input">
+						<div class="input">
+							<input type="text">
+						</div>
+						<div id="search-a">
+								<a href="#"><span>搜&nbsp;&nbsp;&nbsp;索</span></a>
+						</div>
+						<!--搜索框下面的导航--->
+						<div id="div-list">
+							<ul id="list">
+									<li>
+										<a href="#">80万美酒一元秒杀</a>
+										<span class="sp">|</span>
+									</li>
+										
+									<li>
+										<a href="#">茅台</a>
+										<span class="sp">|</span>
+									</li>
+										
+									<li>
+										<a href="#">五粮液</a>
+										<span class="sp">|</span>
+									</li>
+										
+									<li>
+										<a href="#">剑南春</a>
+										<span class="sp">|</span>
+									</li>
+										
+									<li>
+										<a href="#">泸州老窖</a>
+									</li>
+							</ul>
+						</div>
+				</div>
+				<div class='headerProPic1'>
+					<a href="#"><img src="../image/headerProPic1.png" alt=""></a>
+				</div>
+	</div>
+
+
+
+<!--第二个导航条 高度：35  首页、百店同庆。。-->
+		<div class="mid-nav">
+				<div class='mid-nav_1'>
+						<div class='mid-a'>
+							<a href="#">全部商品分类</a>
+						</div>
+
+						<div id="mid-ul">
+							<span><a href="#">首页</a></span>
+							<ul>
+								<li><a href="#">百店同庆</a></li>
+								<li><a href="#">领卷中心</a></li>
+								<li><a href="#">CLBU会员</a></li>
+								<li><a href="#">葡萄酒馆</a></li>
+								<li><a href="#">洋酒馆</a></li>
+								<li><a href="#">清仓</a></li>
+								<li><a href="#">宝丰特卖</a></li>
+							</ul>
+						</div>
+				</div>	
+		</div>
+
+		<!--
+        	作者：214494228@qq.com
+        	时间：2017-08-22
+        	描述：轮播开始
+       -->
+			<div class="lunbo-banner">
+						<img src="../image/lunbo1.png" alt="" class='show'>				
+						<img src="../image/lunbo5.png" alt="">							
+						<img src="../image/lunbo3.png" alt="">							
+					    <img src="../image/lunbo6.png" alt="">
+		    </div>
+	<script src='../js/jquery-3.2.1.js'></script>
+	<script src='../js/lunbo.js'></script>
+			<!--mid-banner
+			详细选酒 1000*482-->
+	<div class="banner-margin">
+		<div class="mid-banner">
+				<div class='mid-banner-a'>
+					<p>一键选酒</p>
+						<div class="mid-banner-ul">
+							<ul>
+							<li><a href="#" class="li-style">整箱购</a></li>
+							<li><a href="#">喜宴用酒</a></li>
+							<li><a href="#" class="li-style">酒仙精选</a></li>
+							</ul>
+							<ul>
+							<li><a href="#">值得买</a></li>
+							<li><a href="#">精品酒铺</a></li>
+							<li><a href="#" class="li-style">年份老酒</a></li>
+							</ul>
+						</div>
+						<div class='mid-banner-dropdown-a'>
+							<div class="drop-banner-p-1">
+								<p class='drop-p-a'>特色会场</p>
+								<p class='drop-p-b'>精选会场</p>
+								<p class='drop-p-c'>企业用酒会场</p>
+								<p class='drop-p-d'>红洋酒会场</p>
+								<p class='drop-p-e'>名庄推荐会场</p>
+
+							</div>
+							<div class="drop-banner-ul-1">
+
+									<div class="drop-u-1">
+									
+										<ul>
+											<li><a href="#">整箱购</a></li><span>|</span>
+											<li><a href="#">精品酒铺</a></li><span>|</span>
+											<li><a href="#">实惠大坛</a></li><span>|</span>
+											<li><a href="#">喜宴用酒</a></li><span>|</span>
+											<li><a href="#">年份老酒</a></li>
+											<li><a href="#">礼尚往来</a></li><span>|</span>
+											<li><a href="#">公司年会</a></li><span>|</span>
+											<li><a href="#">家乡名酒</a></li><span>|</span>	
+											<li><a href="#">海外直采</a></li><span>|</span>
+											<li><a href="#">年份老酒</a></li>
+										</ul>
+								
+									</div>
+									<div class="drop-u-2">
+										<ul>
+											<li><a href="#">新品尝鲜</a></li><span>|</span>
+											<li><a href="#">清仓特卖</a></li><span>|</span>
+											<li><a href="#">值得买</a></li>
+										
+										</ul>
+									</div>
+									<div class="drop-u-2">
+										<ul>
+											<li><a href="#">商务用酒</a></li><span>|</span>
+											<li><a href="#">聚餐用酒</a></li><span>|</span>
+											<li><a href="#">员工福利</a></li>
+											
+										</ul>
+									</div>
+									<div class="drop-u-2">
+										<ul>
+											<li><a href="#">洋酒疯抢</a></li><span>|</span>
+											<li><a href="#">整箱特惠</a></li><span>|</span>
+											<li><a href="#">高分推荐</a></li><span>|</span>
+											<li><a href="#">送礼优选</a></li>
+										</ul>
+									</div>
+									<div class="drop-u-2">
+										<ul>
+											<li><a href="#">名庄名窖</a></li><span>|</span>
+											<li><a href="#">名庄特卖</a></li>
+											
+										</ul>
+									</div>
+
+							</div>
+							<div class="drop-banner-img-1">
+								
+							<a href="#"><img src="../image/side-banner-ul.jpg"/></a>
+						</div>
+						</div>
+				</div>
+				<script>
+//					$("div.mid-banner-a").mouseover(function(){
+//						$("div.mid-banner-dropdown-a").addClass("in")
+//					}).mouseout(function(){
+//						$("div.mid-banner-dropdown-a").removeClass("in")
+//					})
+					$("div.mid-banner-a").mouseover(function(){
+						$("div.mid-banner-dropdown-a").css("display",'block');
+					}).mouseout(function(){
+						$("div.mid-banner-dropdown-a").css("display","none");
+					})
+				</script>
+
+				<div class='mid-banner-a-2'>
+					<p><a href="#" class='biaoti-style'>白酒</a></p>
+					<div class="mid-banner-ul">
+						<ul>
+							<li><a href="#">茅台</a></li>
+							<li><a href="#" class="li-style">五粮液</a></li>
+							<li><a href="#">剑南春</a></li>
+							<li><a href="#">汾酒</a></li>
+							</ul>
+							<ul>
+							<li><a href="#">浓香型</a></li>
+							<li><a href="#" class="li-style">酱香型</a></li>
+							<li><a href="#">贵州</a></li>
+							<li><a href="#">四川</a></li>
+						</ul>
+					</div>
+					<div class='mid-banner-dropdown-a-2'>
+							<div class="drop-banner-p-2">
+								<p class='drop-p-a'>品牌</p>
+								<p class='drop-p-b'>香型</p>
+								<p class='drop-p-c'>产地</p>
+								<p class='drop-p-d'>价位</p>
+								
+							</div>
+							<div class='drop-banner-ul-2'>
+								<div class='side-ul-1'>
+									<ul>
+										<li><a href="#">茅台</a></li>
+										<li><a href="#">水井坊</a></li>
+										<li><a href="#">国窖1573</a></li>
+										<li><a href="#">五粮液</a></li>
+										<li><a href="#">剑南春</a></li>
+										<li><a href="#">泸州老窖</a></li>
+										<li><a href="#">牛栏山</a></li>
+										<li><a href="#">汾阳王</a></li>
+										<li><a href="#">国台</a></li>
+										<li><a href="#">双沟</a></li>
+										<li><a href="#">金不换</a></li>
+										<li><a href="#">今世缘</a></li>
+										<li><a href="#">迎驾</a></li>
+										<li><a href="#">兰陵</a></li>
+										<li><a href="#">河套</a></li>
+										<li><a href="#">河套</a></li>
+									</ul>
+								</div>
+								<div class='side-ul-1'>
+									<ul> 
+										<li><a href="#">浓香型</a></li>
+										<li><a href="#">酱香型</a></li>
+										<li><a href="#">清香型</a></li>
+										<li><a href="#">兼香型</a></li>
+										<li><a href="#">特香型</a></li>
+										<li><a href="#">芝麻香型</a></li>
+										<li><a href="#">凤香型</a></li>
+										<li><a href="#">老白干香型</a></li>
+										<li><a href="#">米香型</a></li>
+										<li><a href="#">董香型</a></li>
+										<li><a href="#">其他</a></li>
+									</ul>
+								</div>
+								<div class='side-ul-1'>
+									<ul> 
+										<li><a href="#">贵州</a></li>
+										<li><a href="#">四川</a></li>
+										<li><a href="#">山西</a></li>
+										<li><a href="#">北京</a></li>
+										<li><a href="#">江苏</a></li>
+										<li><a href="#">安徽</a></li>
+										<li><a href="#">湖北</a></li>
+										<li><a href="#">江西</a></li>
+										<li><a href="#">山东</a></li>
+										<li><a href="#">河南</a></li>
+										<li><a href="#">河北</a></li>
+										<li><a href="#">湖南</a></li>
+										<li><a href="#">陕西</a></li>
+										<li><a href="#">新疆</a></li>
+										<li><a href="#">内蒙古</a></li>
+										<li><a href="#">吉林</a></li>
+									</ul>
+								</div>
+								<div class='side-ul-1'>
+									<ul> 
+										<li><a href="#">1-49元</a></li>
+										<li><a href="#">50-89元</a></li>
+										<li><a href="#">100-199元</a></li>
+										<li><a href="#">200-299元</a></li>
+										<li><a href="#">300-599元</a></li>
+										<li><a href="#">600-999元</a></li>
+										<li><a href="#">1000-1999元</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="drop-banner-img-2">									
+									<a href="#"><img src="../image/side-banner-ul2.jpg"/></a>
+							</div>
+					</div>
+					<script>
+					$("div.mid-banner-a-2").mouseover(function(){
+						$("div.mid-banner-dropdown-a-2").css("display",'block');
+					}).mouseout(function(){
+						$("div.mid-banner-dropdown-a-2").css("display","none");
+					})
+					</script>
+				</div>
+										
+
+				<div class='mid-banner-a-3'>
+					<p><a href="#" class='biaoti-style'>葡萄酒</a></p>
+					<div class="mid-banner-ul">
+						<ul>
+						<li><a href="#">法国</a></li>
+						<li><a href="#">澳大利亚</a></li>
+						<li><a href="#">西班牙</a></li>
+						</ul>
+						<ul>
+						<li><a href="#" class="li-style">中国</a></li>
+						<li><a href="#" class="li-style">茉莉花</a></li>
+						<li><a href="#">丁格树</a></li>
+						</ul>
+					</div>
+
+<!--第3个侧面拉出--><div class='mid-banner-dropdown-a-3'>
+						<div class='drop-banner-p-3'>
+								<p>红葡萄酒</p>
+								<p>白葡萄酒</p>
+								<p>桃红葡萄酒</p>
+								<p>起泡酒</p>
+								<p>国家</p>
+								<p>品牌</p>
+								<p>品种</p>
+								<p>价格区间</p>
+						</div>
+						<div class='drop-banner-ul-2'>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">半干红</a></li><span>|</span>
+									<li><a href="#">甜红</a></li><span>|</span>
+									<li><a href="#">半甜红</a></li>
+									
+								</ul>							
+							</div>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">干白</a></li><span>|</span>
+									<li><a href="#">半干白</a></li><span>|</span>
+									<li><a href="#">甜白</a></li><span>|</span>
+									<li><a href="#">半甜白</a></li>
+								</ul>							
+							</div>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">干型桃红</a></li><span>|</span>
+									<li><a href="#">半干型桃红</a></li><span>|</span>
+									<li><a href="#">甜型桃红</a></li><span>|</span>
+									<li><a href="#">半干型桃红</a></li>
+								</ul>							
+							</div>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">起泡酒/香槟</a></li><span>|</span>
+									<li><a href="#">干型起泡酒</a></li><span>|</span>
+									<li><a href="#">半干型起泡酒</a></li><span>|</span>
+									<li><a href="#">甜型起泡酒</a></li>
+								</ul>							
+							</div>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">法国</a></li><span>|</span>
+									<li><a href="#">澳大利亚</a></li><span>|</span>
+									<li><a href="#">西班牙</a></li><span>|</span>
+									<li><a href="#">智利</a></li><span>|</span>
+									<li><a href="#">意大利</a></li><span>|</span>
+									<li><a href="#">中国</a></li>
+								</ul>							
+							</div>
+							<div class='side-ul-3 side-ul-3-a'>
+								<ul>
+									<li><a href="#">拉菲</a></li><span>|</span>
+									<li><a href="#">奔富</a></li><span>|</span>
+									<li><a href="#">黄尾袋鼠</a></li><span>|</span>
+									<li><a href="#">张裕</a></li><span>|</span>
+									<li><a href="#">长城</a></li><span>|</span>
+									<li><a href="#">红魔鬼</a></li><span>|</span>
+									<li><a href="#">木桐</a></li><span>|</span>
+									<li><a href="#">激情飞扬</a></li><span>|</span>
+									<li><a href="#">杰卡斯</a></li><span>|</span>
+									<li><a href="#">32领域</a></li><span>|</span>
+									<li><a href="#">小企鹅</a></li><span>|</span>
+									<li><a href="#">茉莉</a></li><span>|</span>
+									<li><a href="#">蒙斯特</a></li>
+								</ul>							
+							</div>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">赤霞珠</a></li><span>|</span>
+									<li><a href="#">西拉</a></li><span>|</span>
+									<li><a href="#">美乐</a></li><span>|</span>
+									<li><a href="#">歌海娜</a></li><span>|</span>
+									<li><a href="#">霞多丽</a></li><span>|</span>
+									<li><a href="#">长相思</a></li>
+								</ul>							
+							</div>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">1-49</a></li><span>|</span>
+									<li><a href="#">50-99</a></li><span>|</span>
+									<li><a href="#">100-199</a></li><span>|</span>
+									<li><a href="#">200-299</a></li><span>|</span>
+									<li><a href="#">300-499</a></li>
+			
+								</ul>							
+							</div>
+						</div>
+						<div class="drop-banner-img-2">									
+									<a href="#"><img src="../image/side-banner-ul.jpg"/></a>
+						</div>
+					</div>
+					<script>
+					$("div.mid-banner-a-3").mouseover(function(){
+						$("div.mid-banner-dropdown-a-3").css("display",'block');
+					}).mouseout(function(){
+						$("div.mid-banner-dropdown-a-3").css("display","none");
+					})
+					</script>
+				</div>
+
+				<div class='mid-banner-a-4'>
+					<p><a href="#" class='biaoti-style'>葡萄酒</a></p>
+					<div class="mid-banner-ul">
+						<ul>
+						<li><a href="#">洋酒</a></li>
+						<li><a href="#">威士忌</a></li>
+						<li><a href="#">白兰地</a></li>
+						</ul>
+						<ul>
+						<li><a href="#" class="li-style">人头马</a></li>
+						<li><a href="#" class="li-style">马爹利</a></li>
+						<li><a href="#">真露</a></li>
+						</ul>
+					</div>
+					<div class='mid-banner-dropdown-a-4'>
+						<div class='drop-banner-p-4'>
+								<p>红葡萄酒</p>
+								<p>白葡萄酒</p>
+								<p>桃红葡萄酒</p>
+								<p>起泡酒</p>
+						</div>
+						<div class='drop-banner-ul-2'>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">芝华士</a></li><span>|</span>
+									<li><a href="#">马谛氏</a></li><span>|</span>
+									<li><a href="#">斯米诺</a></li><span>|</span>
+									<li><a href="#">马爹利</a></li><span>|</span>
+									<li><a href="#">人头马</a></li>
+								</ul>							
+							</div>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">白兰地</a></li><span>|</span>
+									<li><a href="#">威士忌</a></li><span>|</span>
+									<li><a href="#">伏特加</a></li><span>|</span>
+									<li><a href="#">朗姆酒</a></li><span>|</span>
+									<li><a href="#">单一麦芽</a></li>
+								</ul>							
+							</div>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">200-299</a></li><span>|</span>
+									<li><a href="#">300-499</a></li><span>|</span>
+									<li><a href="#">500-799</a></li><span>|</span>
+									<li><a href="#">800-999</a></li><span>|</span>
+									<li><a href="#">1000以上</a></li>
+								</ul>							
+							</div>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">英国</a></li><span>|</span>
+									<li><a href="#">法国</a></li><span>|</span>
+									<li><a href="#">俄罗斯</a></li><span>|</span>
+									<li><a href="#">美国</a></li><span>|</span>
+									<li><a href="#">瑞典</a></li>
+								</ul>							
+							</div>
+						</div>
+						<div class="drop-banner-img-2">									
+								<a href="#"><img src="../image/side-banner-ul2.jpg"/></a>
+						</div>
+							
+					</div>
+					<script>
+					$("div.mid-banner-a-4").mouseover(function(){
+						$("div.mid-banner-dropdown-a-4").css("display",'block');
+					}).mouseout(function(){
+						$("div.mid-banner-dropdown-a-4").css("display","none");
+					})
+					</script>
+				</div>
+
+				<div class='mid-banner-a-5'>
+						<p><a href="#" class='biaoti-style'>啤酒/</a><a href="#" class='biaoti-style'>黄酒/</a><a href="#" class='biaoti-style'>养生酒</a></p>
+						<div class="mid-banner-ul">
+							<ul>
+							<li><a href="#" class="li-style">艾斯伯爵</a></li>
+							<li><a href="#" class="li-style">青岛</a></li>
+							<li><a href="#" class="li-style">1664</a></li>
+							</ul>
+							<ul>
+							<li><a href="#">劲牌</a></li>
+							<li><a href="#">猎鹰</a></li>
+							<li><a href="#">狮虎争霸</a></li>
+							</ul>
+						</div>
+						<div class='mid-banner-dropdown-a-5'>
+						<div class='drop-banner-p-4'>
+								<p>啤酒</p>
+								<p>养生酒</p>
+								<p>黄酒</p>
+								<p>果酒</p>
+						</div>
+						<div class='drop-banner-ul-2'>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">艾斯伯爵</a></li><span>|</span>
+									<li><a href="#">青岛啤酒</a></li><span>|</span>
+									<li><a href="#">嘉士伯</a></li><span>|</span>
+									<li><a href="#">科罗娜</a></li><span>|</span>
+									<li><a href="#">猎鹰</a></li>
+								</ul>							
+							</div>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">竹叶青</a></li><span>|</span>
+									<li><a href="#">劲牌</a></li><span>|</span>
+									<li><a href="#">宁夏红</a></li><span>|</span>
+									<li><a href="#">更多>></a></li>
+									
+								</ul>							
+							</div>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">古越龙山</a></li><span>|</span>
+									<li><a href="#">会稽山</a></li><span>|</span>
+									<li><a href="#">乌毡帽</a></li><span>|</span>
+									<li><a href="#">东南农家</a></li><span>|</span>
+									<li><a href="#">唐宋</a></li>
+								</ul>							
+							</div>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">恒龙湖</a></li><span>|</span>
+									<li><a href="#">兰逸轮</a></li><span>|</span>
+									<li><a href="#">通天</a></li><span>|</span>
+									<li><a href="#">白梦圆</a></li><span>|</span>
+									<li><a href="#">千金饮</a></li>
+								</ul>							
+							</div>
+						</div>
+						<div class="drop-banner-img-2">									
+								<a href="#"><img src="../image/side-banner-ul.jpg"/></a>
+						</div>	
+					</div>
+							<script>
+							$("div.mid-banner-a-5").mouseover(function(){
+								$("div.mid-banner-dropdown-a-5").css("display",'block');
+							}).mouseout(function(){
+								$("div.mid-banner-dropdown-a-5").css("display","none");
+							})
+						</script>
+				</div>
+				
+
+				<div class='mid-banner-b'>
+						<p><a href="#" class='biaoti-style'>食尚</a></p>
+						<div class="mid-banner-ul">
+							<ul>
+							<li><a href="#">恰恰食品</a></li>
+							<li><a href="#" class="li-style">进口食品</a></li>
+							<li><a href="#">茶叶</a></li>
+							</ul>
+						</div>
+						<div class='mid-banner-dropdown-a-6'>
+						<div class='drop-banner-p-6'>
+								<p>红葡萄酒</p>
+								<p>白葡萄酒</p>
+								<p>桃红葡萄酒</p>
+								<p>起泡酒</p>
+						</div>
+						<div class='drop-banner-ul-2'>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">干红</a></li>
+								</ul>							
+							</div>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">干红</a></li>
+								</ul>							
+							</div>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">干红</a></li>
+								</ul>							
+							</div>
+							<div class='side-ul-3'>
+								<ul>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">干红</a></li><span>|</span>
+									<li><a href="#">干红</a></li>
+								</ul>							
+							</div>
+						</div>
+						<div class="drop-banner-img-2">									
+								<a href="#"><img src="../image/side-banner-ul2.jpg"/></a>
+						</div>
+
+
+						</div>
+						<script>
+							$("div.mid-banner-b").mouseover(function(){
+								$("div.mid-banner-dropdown-a-6").css("display",'block');
+							}).mouseout(function(){
+								$("div.mid-banner-dropdown-a-6").css("display","none");
+							})
+						</script>
+					</div>
+				<!-- 	右边广告图 -->
+					<div class='mid-banner-right'>
+						<div class='mid-banner-c'>
+							<a href="#"><img src="../image/right1.png" alt=""></a>
+						</div>
+						<div class='mid-banner-c'>
+							<a href="#"><img src="../image/right1.png" alt=""></a>
+						</div>
+						<div class='mid-banner-d'>
+							<a href="#"><img src="../image/right1.png" alt=""></a>
+						</div>
+					</div>
+
+			<!--轮播小圆点--->
+					<div id="nav-radius">
+						<ul>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">6</a></li>
+							<li><a href="#">7</a></li>
+							<li><a href="#">8</a></li>
+							<li><a href="#">9</a></li>
+						</ul>
+					</div>
+				</div>
+		</div>	
+		<div class='mid-banner-margin'>
+			<div id="mid-banner-sec">
+				<div class="active">
+					<ul>
+						<li><a href="#">疯狂抢购</a></li>
+						<li><a href="#">整箱囤货</a></li>
+						<li><a href="#">爆款精选</a></li>
+						<li><a href="#">口粮聚会</a></li>
+						<li><a href="#">大牌特卖</a></li>
+					</ul>
+				</div>
+				<div  class='margin_li_a'>
+					<div class='margin_li'>
+						<li><a href="#">公告信息</a></li>
+					</div>
+					<div class='right-ul'>
+						<ul>
+							<li><a href="#">厦门市停止下单通知</a></li>
+							<li><a href="#">厦门市停止下单通知</a></li>
+							<li><a href="#">厦门市停止下单通知</a></li>
+							<li><a href="#">厦门市停止下单通知</a></li>
+						</ul>
+					</div>
+					<div class='img-n1'>
+						<img src="../image/14.jpg" alt="">
+					</div>
+					<div class='img-n2'>
+						<img src="../image/dongtu.gif" alt="">
+					</div>
+					<div class='img-n3'>
+						<img src="../image/11.png" alt="">
+					</div>
+					
+
+				</div>
+				<!--名酒图片-->
+				<div class='container_box'>
+					<div>
+						<a href="#"><img src="../image/1.jpg" alt=""></a>
+						<a href="#">【宝丰特卖】52度宝丰老窖...</a>
+						<span class='box_price'>￥199</span>
+					</div>
+					<div>
+						<a href="#"><img src="../image/2.jpg" alt=""></a>
+						<a href="#">【宝丰特卖】52度宝丰老窖...</a>
+						<span class='box_price'>￥199</span>
+					</div>
+					<div>
+						<a href="#"><img src="../image/3.png" alt=""></a>
+						<a href="#">【宝丰特卖】52度宝丰老窖...</a>
+						<span class='box_price'>￥199</span>
+					</div>
+					<div>
+						<a href="#"><img src="../image/4.png" alt=""></a>
+						<a href="#">【宝丰特卖】52度宝丰老窖...</a>
+						<span class='box_price'>￥199</span>
+					</div>
+					<div>
+						<a href="#"><img src="../image/5.jpg" alt=""></a>
+						<a href="#">【宝丰特卖】52度宝丰老窖...</a>
+						<span class='box_price'>￥199</span>
+					</div>
+					<div>
+						<a href="#"><img src="../image/6.jpg" alt=""></a>
+						<a href="#">【宝丰特卖】52度宝丰老窖...</a>
+						<span class='box_price'>￥199</span>
+					</div>
+					<div>
+						<a href="#"><img src="../image/7.jpg" alt=""></a>
+						<a href="#">【宝丰特卖】52度宝丰老窖...</a>
+						<span class='box_price'>￥199</span>
+					</div>
+					<div>
+						<a href="#"><img src="../image/8.jpg" alt=""></a>
+						<a href="#">【宝丰特卖】52度宝丰老窖...</a>
+						<span class='box_price'>￥199</span>
+					</div>
+				</div>
+			</div>
+				<div class='mid-banner-footer'>
+					<img src="../image/div1.png" alt="">
+					<img src="../image/div2.png" alt="">
+					<img src="../image/div2.png" alt="">
+				</div>
+
+		</div>
+		<!-- 1F-->
+		<!-- 2F -->
+		<!-- 3F -->
+		<!-- 4F -->
+		<footer>
+			<iframe src="footer.html" frameborder="0" width='100%' height='600px'>
+			</iframe>
+		</footer>
+</div>
+ </body>
+</html>

@@ -1,0 +1,20 @@
+	*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+	}
+	img{
+		vertical-align:bottom;
+	}
+	input{
+		border:1px solid #cfcfcf;
+		outline:none;
+		color:#cfcfcf;
+		font-size:14px;
+	}
+	ul ol{
+		list-style:none;
+	}
+	a{
+		text-decoration:none;
+	}

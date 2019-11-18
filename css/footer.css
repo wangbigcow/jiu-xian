@@ -1,0 +1,160 @@
+.footer{
+	width:100%;
+	height:600px;
+}
+.div_1{
+	width:100%;
+	height:300px;
+	margin:0 auto;
+	background:#333333;
+}
+
+.kf_phone{
+	width:1180px;
+	height:85px;
+	margin:0 auto;
+	border-bottom:1px solid #494949;
+
+}
+.kf_phone_div h2{
+	float:left;
+/*	margin-left:60px;*/
+	line-height:85px;
+	color:#CC0000;
+}
+
+.kf_phone_div span{
+	float:left;
+	margin-left:40px;
+	line-height:85px;
+	color:#fff;
+	font-size:14px;
+}
+.kf_phone_inp{
+	float:right;
+	margin-top:28px;
+/*	margin-left:150px;*/
+	margin-right:100px;
+	width:240px;
+	height:30px;
+	text-indent:5px;
+	border:1px solid #494949;
+	background:#494949;
+	text-indent:15px;
+}
+.kf_phone_right{
+	float:left;
+	line-height:85px;
+	margin-left:225px;
+	color:#fff;
+	font-size:14px;
+}
+/***nav_div**/
+
+.nav_div{
+	width:1180px;
+	height:215px;
+	margin:0 auto;
+}
+.nav_div_ul{
+	float:left;
+	width:64px;
+/*	margin-left:30px;*/
+	margin-right:70px;
+	margin-top:50px;
+}
+.nav_div_ul li{
+	list-style: none;
+	font-size: 12px;
+	line-height: 30px;
+}
+.nav_div_ul a{
+	text-decoration: none;
+	color:#CCCCCC;
+}
+.nav_div_ul a:hover{
+	border-bottom:1px solid #CCCCCC;
+}
+.nav_div_ul p{
+	color: #fff;
+	font-size:13px;
+}
+.div_2	{
+	width:100%;
+	height: 300px;
+}
+.footer_bottom{
+	width:1180px;
+	margin:0 auto;
+}
+.footer_bottom li{
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+	font-size: 10px;
+}
+.footer_bottom ul{
+	width: 550px;
+	height: 30px;
+	line-height: 30px;
+}
+.footer_bottom a{
+	text-decoration: none;
+	color: #666666;
+}
+.footer_bottom a:hover{
+	border-bottom:1px solid #666666;
+}
+.footer_bottom p{
+	width: 720px;
+	font-size: 12px;
+	margin-top: 10px;
+	color:#999999;
+}
+p.footer_bottom_red{
+	color: #CC0000;
+}
+.footer_bottom img{
+	margin-top: 10px;
+}
+p.footer_bottom_p{
+	color:#666666;
+}
+div.footer-logo{
+	width:200px;
+	height:100px;
+	float:right;
+	margin-top:-200px;
+	margin-right:140px;
+}
+div.footer-logo-1{
+	float:left;
+	width:80px;
+	height:80px;
+
+}
+div.footer-logo-2{
+	float:right;
+	width:80px;
+	height:80px;
+}
+div.footer-logo p{
+	width:80px;
+	text-align:center;
+}
+div.nav-logo{
+	width:80px;
+	height:100px;
+	float:right;
+	margin-top:51px;
+	margin-right:257px;
+}
+div.nav-logo-wx{
+	width:25px;
+	height:30px
+	float:left;
+	z-index:9999;
+	background:url(../image/public-24.png);
+	background-repeat:no-repeat;
+	background-position:-105px -75px;
+}

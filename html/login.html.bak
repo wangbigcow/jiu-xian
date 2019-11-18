@@ -1,0 +1,89 @@
+<!doctype html>
+ <head>
+  <title>logoin</title>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/login.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+ </head>
+ <body>
+ 	<div class='header'>
+		<div class="container-nav">
+				<a href="#" class='nav-a-1'><img src="../image/logo.png"/></a>
+		</div>
+		<div class='container-nav-2'>
+			<a href="#" class='nav-a-2'><img src="../image/slogan.jpg"/></a>
+		</div>
+		
+		<div class='nav-div'>			
+					<p class='nav-p'>欢迎来到酒仙网！</p>
+					<a href="#" class='nav-a-3'>免费注册</a>
+		</div>
+		<div class='nav-div-drop'>
+					<a href="#" class='nav-a-4'>帮助中心</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">配送说明</a></li>
+						<li><a href="#">支付方式</a></li>
+						<li><a href="#">售后服务</a></li>
+						<li><a href="#">企业用户</a></li>
+					</ul>
+		</div>
+	</div>
+	<script src='../js/jquery-3.2.1.js'></script>
+	<script src='../js/drop.js'></script>
+
+
+	<div class="main">		
+		<!-- 	背景图	 -->
+	</div>
+	<div class="container-input">
+						<div class="container-hr">
+							<a href="#" class='container-a-1'>帐号登陆</a>
+							<span id="container-span">|</span>	
+							<a href="#" class='container-a-2'>手机动态密码登录</a>
+						</div>
+						<form action="" method="post" >
+							<div class="container-text">
+							
+								<input type="text" value=""/>
+						
+							</div>
+							
+							<div class="container-pwd">
+								<input type="text" value=""/>
+							</div>
+							
+							<div class="container-yzm">
+								<input type="text" value=""/>
+							</div>
+							
+							<div class="container-submit">
+								<button>登&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+							</div>
+					
+						</form>	
+						<div class='container-footer'>
+
+							<div class='container-checkbox'>
+								<input type="checkbox" value=''>自动登录
+							</div>
+							<div class='container-reg-a'>
+								<a href="#">免费注册</a>
+							</div>
+							<div class='container-fgt-a'>
+								<a href="#">忘记密码</a>
+							</div>
+			</div>
+	</div>
+		
+		
+			<div class="footer">
+				<p class='footer-p-1'>©  酒仙网  2011 jiuxian.com All  Rights Reserved  京ICP证110141号  京公网安备1101050188221</p>
+				<p class='footer-p-2'>购买前请确认达到法定饮酒年龄！酒仙网不销售任何含酒精产品给18岁以下人士！</p>
+			
+			</div>
+
+		
+		
+
+ </body>
+</html>

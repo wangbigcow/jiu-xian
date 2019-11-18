@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>酒仙网</title>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/lunbo.css">
+  <link rel="stylesheet" type="text/css" href="../css/side.css"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+ </head>
+
+<div class='side'>
+	<div class='side-content'>
+		<div class='item-side-a'>
+			<a href="#" class='item-li-1'>我</a>
+		</div>
+		
+		<div class='item-side-b'>
+			<a href="#" class='item-li-2'>收<br>藏</a>
+		</div>
+		
+		<div class='item-side-c'>
+			<a href="#" class='item-li-3'>购<br>物<br>车</a>
+		</div>
+		
+		<div class='item-side-d'>
+			<a href="#" class='item-li-4'>在<br>线<br>客<br>服</a>
+		</div>
+	</div>
+	
+</div>
+<div id="body-div">
+	
+    <!-- 页面头部-->
+	<!--对顶部导航条-->
+
+		<div id="header">
+			<div class='top-box'>
+				<div class="top-nav">
+					<a style='border:none'>欢迎来到酒仙网！</a>
+					<a href="login.html">请登录</a>
+					<a href="regisiter.html">免费注册</a>
+				</div>
+					<div id="header_ul">
+						<ul>
+							<li><a href="#" style='border:none'>我的酒仙</a></li>
+							<li class="red"><a href="#">CEO邮箱</a></li>
+							<li><a href="#">购物车</a></li>
+							<li class="red"><a href="#">CLUB会员</a></li>
+							<li>|&nbsp;&nbsp;<a href="#">招商入驻</a>&nbsp;&nbsp;|</li>
+							<li class="li-phone"><a href="#" style='border:none'>手机逛酒仙</a></li>
+							<li><a href="#">网站导航</a</li>
+							<li><a href="#">客户服务</a></li>
+							<li><a href="#">客服热线</a></li>
+							<li class="red"><a href="#" style='border:none'>123-456-789</a></li>
+						</ul>
+					</div>
+			</div>
+		</div>
+	
+	<!--顶部广告横幅 height:95px-->
+		<div id="top-banner">
+			<img src="../image/banner.png" alt="">
+		</div>
+	
+	<!--logo 酒仙搜索框-->
+		<div class='search_1'>
+				<div class='search_2'>
+					<div id="jx-logo">
+						<div id="logo-1">
+							<img src="../image/logo.png" alt="">
+						</div>
+
+						<div id="logo-2">
+							<img src="../image/jiu.gif" alt="">
+						</div>
+					</div>
+				
+
+					<!--input输入框-->
+				<div id="input">
+						<div class="input">
+							<input type="text">
+						</div>
+						
+						<!--搜索框下面的导航--->
+						<div id="div-list">
+							<ul id="list">
+									<li>
+										<a href="#">80万美酒一元秒杀</a>
+										<span class="sp">|</span>
+									</li>
+										
+									<li>
+										<a href="#">茅台</a>
+										<span class="sp">|</span>
+									</li>
+										
+									<li>
+										<a href="#">五粮液</a>
+										<span class="sp">|</span>
+									</li>
+										
+									<li>
+										<a href="#">剑南春</a>
+										<span class="sp">|</span>
+									</li>
+										
+									<li>
+										<a href="#">泸州老窖</a>
+									</li>
+							</ul>
+						</div>
+						<div id="search-a">
+								<a href="#"><span>搜&nbsp;索</span></a>
+						</div>
+				</div>	
+			</div>
+
+
+
+		<!--第二个导航条 高度：35  首页、百店同庆。。-->
+		<div class="mid-nav">
+				<div class='mid-nav_1'>
+						<div class='mid-a'>
+							<a href="#">全部商品分类</a>
+						</div>
+
+						<div id="mid-ul">
+							<span><a href="#">首页</a></span>
+							<ul>
+								<li><a href="#">百店同庆</a></li>
+								<li><a href="#">领卷中心</a></li>
+								<li><a href="#">CLBU会员</a></li>
+								<li><a href="#">葡萄酒馆</a></li>
+								<li><a href="#">洋酒馆</a></li>
+								<li><a href="#">清仓</a></li>
+								<li><a href="#">宝丰特卖</a></li>
+							</ul>
+						</div>
+				</div>	
+		</div>
+
+		<!--
+        	作者：214494228@qq.com
+        	时间：2017-08-22
+        	描述：轮播开始
+       -->
+			<div class="lunbo-banner">
+						<img src="../image/lunbo1.png" alt="" class='show'>				
+						<img src="../image/lunbo5.png" alt="">							
+						<img src="../image/lunbo3.png" alt="">							
+					    <img src="../image/lunbo6.png" alt="">
+		    </div>
+<script src='../js/jquery-3.2.1.js'></script>
+<script src='../js/lunbo.js'></script>
+			<!--mid-banner
+			详细选酒 1000*482-->
+<div class="banner-margin">
+		<div class="mid-banner">
+				<div class='mid-banner-a'>
+					<p>一键选酒</p>
+					<div class="mid-banner-ul">
+						<ul>
+						<li><a href="#" class="li-style">整箱购</a></li>
+						<li><a href="#">喜宴用酒</a></li>
+						<li><a href="#" class="li-style">酒仙精选</a></li>
+						</ul>
+						<ul>
+						<li><a href="#">值得买</a></li>
+						<li><a href="#">精品酒铺</a></li>
+						<li><a href="#" class="li-style">年份老酒</a></li>
+						</ul>
+				   </div>
+				</div>
+				
+
+				<div class='mid-banner-a'>
+					<p><a href="#" class='biaoti-style'>白酒</a></p>
+					<div class="mid-banner-ul">
+						<ul>
+						<li><a href="#">茅台</a></li>
+						<li><a href="#" class="li-style">五粮液</a></li>
+						<li><a href="#">剑南春</a></li>
+						<li><a href="#">汾酒</a></li>
+						</ul>
+						<ul>
+						<li><a href="#">浓香型</a></li>
+						<li><a href="#" class="li-style">酱香型</a></li>
+						<li><a href="#">贵州</a></li>
+						<li><a href="#">四川</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class='mid-banner-a'>
+					<p><a href="#" class='biaoti-style'>葡萄酒</a></p>
+					<div class="mid-banner-ul">
+						<ul>
+						<li><a href="#">法国</a></li>
+						<li><a href="#">澳大利亚</a></li>
+						<li><a href="#">西班牙</a></li>
+						</ul>
+						<ul>
+						<li><a href="#">中国</a></li>
+						<li><a href="#">茉莉花</a></li>
+						<li><a href="#">丁格树</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class='mid-banner-a'>
+					<p><a href="#" class='biaoti-style'>洋酒</a></p>
+					<div class="mid-banner-ul">
+						<ul>
+						<li><a href="#" class="li-style">威士忌</a></li>
+						<li><a href="#">白兰地</a></li>
+						<li><a href="#" class="li-style">人头马</a></li>
+						</ul>
+						<ul>
+						<li><a href="#">马爹利</a></li>
+						<li><a href="#">真露</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class='mid-banner-a'>
+					<p><a href="#" class='biaoti-style'>啤酒/</a><a href="#" class='biaoti-style'>黄酒/</a><a href="#" class='biaoti-style'>养生酒</a></p>
+					<div class="mid-banner-ul">
+						<ul>
+						<li><a href="#" class="li-style">艾斯伯爵</a></li>
+						<li><a href="#" class="li-style">青岛</a></li>
+						<li><a href="#" class="li-style">1664</a></li>
+						</ul>
+						<ul>
+						<li><a href="#">劲牌</a></li>
+						<li><a href="#">猎鹰</a></li>
+						<li><a href="#">狮虎争霸</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class='mid-banner-b'>
+					<p><a href="#" class='biaoti-style'>食尚</a></p>
+					<div class="mid-banner-ul">
+						<ul>
+						<li><a href="#">恰恰食品</a></li>
+						<li><a href="#" class="li-style">进口食品</a></li>
+						<li><a href="#">茶叶</a></li>
+						</ul>
+					</div>
+				</div>
+			<script src='../js/drop.js'></script>
+			<div class='mid-banner-right'>
+				<div class='mid-banner-c'>
+					<a href="#"><img src="../image/right1.png" alt=""></a>
+				</div>
+				<div class='mid-banner-c'>
+					<a href="#"><img src="../image/right1.png" alt=""></a>
+				</div>
+				<div class='mid-banner-d'>
+					<a href="#"><img src="../image/right1.png" alt=""></a>
+				</div>
+			</div>
+
+			<!--轮播小圆点--->
+				<div id="nav-radius">
+					<ul>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">6</a></li>
+						<li><a href="#">7</a></li>
+						<li><a href="#">8</a></li>
+						<li><a href="#">9</a></li>
+					</ul>
+				</div>
+	    </div>
+</div>
+
+
+
+<!--中间第二部分 广告-->
+<div class='mid-banner-margin'>
+	<div id="mid-banner-sec">
+				<div class="active">
+					<ul>
+						<li><a href="#">疯狂抢购</a></li>
+						<li><a href="#">整箱囤货</a></li>
+						<li><a href="#">爆款精选</a></li>
+						<li><a href="#">口粮聚会</a></li>
+						<li><a href="#">大牌特卖</a></li>
+					</ul>
+				</div>
+				<div  class='margin_li_a'>
+					<div class='margin_li'>
+						<li><a href="#">公告信息</a></li>
+					</div>
+					<div class='right-ul'>
+						<ul>
+							<li><a href="#">厦门市停止下单通知</a></li>
+							<li><a href="#">厦门市停止下单通知</a></li>
+							<li><a href="#">厦门市停止下单通知</a></li>
+							<li><a href="#">厦门市停止下单通知</a></li>
+						</ul>
+					</div>
+					<div class='img-n1'>
+						<img src="../image/14.jpg" alt="">
+					</div>
+					<div class='img-n2'>
+						<img src="../image/dongtu.gif" alt="">
+					</div>
+					<div class='img-n3'>
+						<img src="../image/11.png" alt="">
+					</div>
+					
+
+				</div>
+				<!--名酒图片-->
+				<div class='container_box'>
+					<div>
+						<a href="#"><img src="../image/1.jpg" alt=""></a>
+						<a href="#">【宝丰特卖】52度宝丰老窖...</a>
+						<span class='box_price'>￥199</span>
+					</div>
+					<div>
+						<a href="#"><img src="../image/2.jpg" alt=""></a>
+						<a href="#">【宝丰特卖】52度宝丰老窖...</a>
+						<span class='box_price'>￥199</span>
+					</div>
+					<div>
+						<a href="#"><img src="../image/3.png" alt=""></a>
+						<a href="#">【宝丰特卖】52度宝丰老窖...</a>
+						<span class='box_price'>￥199</span>
+					</div>
+					<div>
+						<a href="#"><img src="../image/4.png" alt=""></a>
+						<a href="#">【宝丰特卖】52度宝丰老窖...</a>
+						<span class='box_price'>￥199</span>
+					</div>
+					<div>
+						<a href="#"><img src="../image/5.jpg" alt=""></a>
+						<a href="#">【宝丰特卖】52度宝丰老窖...</a>
+						<span class='box_price'>￥199</span>
+					</div>
+					<div>
+						<a href="#"><img src="../image/6.jpg" alt=""></a>
+						<a href="#">【宝丰特卖】52度宝丰老窖...</a>
+						<span class='box_price'>￥199</span>
+					</div>
+					<div>
+						<a href="#"><img src="../image/7.jpg" alt=""></a>
+						<a href="#">【宝丰特卖】52度宝丰老窖...</a>
+						<span class='box_price'>￥199</span>
+					</div>
+					<div>
+						<a href="#"><img src="../image/8.jpg" alt=""></a>
+						<a href="#">【宝丰特卖】52度宝丰老窖...</a>
+						<span class='box_price'>￥199</span>
+					</div>
+				</div>
+	</div>
+</div>
+<!-- 				<div class='left'> -->
+<!-- 					<img src="image/left.jpeg" alt="">a -->
+<!-- 				</div> -->
+<!-- 				<div class='right'> -->
+<!-- 					<img src="image/right.jepg" alt="">b -->
+<!-- 				</div> -->
+
+<footer>
+	<iframe src="footer.html" frameborder="0" width='100%' height='600px'>
+	</iframe>
+</footer>
+ </body>
+</html>

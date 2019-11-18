@@ -1,0 +1,11 @@
+﻿//首页轮播
+ function task(){
+	var show=document.querySelector(".lunbo-banner>.show");
+	show.className="";
+	if(show.nextElementSibling!=null){
+		show.nextElementSibling.className='show';
+	}else{
+		show.parentNode.children[0].className='show';
+	}
+  }
+  setInterval(task,2000);
